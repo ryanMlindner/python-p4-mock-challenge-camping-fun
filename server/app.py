@@ -197,9 +197,6 @@ class Signups(Resource):
             )
             return response
         
-
-
-
 api.add_resource(Index, '/')
 api.add_resource(Campers, '/campers')
 api.add_resource(CampersByID, '/campers/<int:id>')
